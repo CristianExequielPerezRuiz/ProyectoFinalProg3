@@ -1,0 +1,50 @@
+.grid-layaut-perfil{
+    display: grid;
+    grid-template-areas: 'lateral contenido'
+                         'lateral contenido'
+                         'lateral contenido';
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto 200px ;
+    padding: 50px;
+}
+.body_perfil{
+    background-color: rgb(28, 31, 56);
+}
+.cont-perfil{
+    margin: 3px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+.lista{
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 15px 3px 0px ;
+}
+
+
+.cj-prf4{
+    grid-area: contenido;
+}
+.cj-prf5{
+    grid-area: contenido;
+}
+.cj-prf6{
+    grid-area: contenido;
+}
+
+.btn_mis_datos{
+    height: 100%;
+    width: 100%;
+    /* background-color: #a22; */
+}
+
+.subtitulos{
+    color: aliceblue;
+}
+
+
+
+

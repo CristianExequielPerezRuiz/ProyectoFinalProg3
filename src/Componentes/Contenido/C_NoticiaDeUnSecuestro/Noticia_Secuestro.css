@@ -1,0 +1,55 @@
+.body_NC{
+    background-color: rgb(28, 31, 56);
+}
+.grid-layaut-NC{
+    display: grid;
+    grid-template-areas: 'libro descripcion'
+                         'vender vender';
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 350px 300px;
+    padding: 35px 100px 35px 100px;
+}
+.cajasNC{
+    justify-content: center;
+    text-align: center;
+}
+
+.cNC1{
+    grid-area: libro;
+}
+.img_cNC1{
+    object-fit:scale-down;
+    height: 100%;
+    width: 100%;
+}
+.cNC2{
+    grid-area: descripcion;
+}
+.cNC3{
+    grid-area: vender;
+}
+
+.texto_descripcion{
+    padding: 15px;
+    color: aliceblue;
+}
+.precio{
+    color: aliceblue;
+    font-size: 40px;
+}
+.ul_venta{
+    list-style: none;
+    padding-left: 0px;
+}
+.btn_carrito{
+    height: 100%;
+    width: 100%;
+}
+.venta_lista{
+    margin: 2px;
+}
+
+.volver{
+    height: 100%;
+    width: 100%;
+}

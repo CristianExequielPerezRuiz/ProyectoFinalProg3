@@ -1,0 +1,21 @@
+.relleno{
+    padding: 20px;
+    font-family: montserrat;
+    justify-content: center;
+    text-align: center;
+}
+.h1_axios{
+    font-size: 70px
+}
+.p_axios{
+    font-size: 20px;
+}
+.bd_ax{
+    background: linear-gradient(to right,rgb(108, 22, 206),rgb(129, 54, 54));
+    height: 609px;
+}
+.btn_axios{
+    margin: 2%;
+    height: 5rem;
+    width: 10rem;
+}

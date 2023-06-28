@@ -1,0 +1,51 @@
+.grid--layaut{
+    background-color: rgb(28, 31, 56);
+    display: grid;
+    grid-template-areas: 'cabecera cabecera cabecera'
+                            'menu menu menu'
+                        'lateral contenido contenido '
+                           'footer footer footer';
+    grid-template-columns: auto 38% 38%;
+    grid-template-rows: 60px 70px auto auto;
+}
+
+.contenedor{ 
+    margin: 2px;    
+    /* border: 2px solid rgb(16, 3, 85); */
+}
+
+
+.cont1{
+    grid-area: cabecera ;   
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+}
+
+.cont2{
+    grid-area: menu ;
+    background-color: rgb(28, 31, 56);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cont3{
+    grid-area: contenido;  
+    text-align: center;      
+}
+
+.cont4{
+    grid-area: lateral ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cont5{
+    grid-area: footer ;
+    background-color: rgb(28, 31, 56);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

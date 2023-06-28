@@ -1,0 +1,33 @@
+.grid-layaut-contenido{
+    display: grid;
+    grid-template-areas: 'card1 card2'
+                         'card3 card4'
+                         'card5 card6'
+                         'card7 card8';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    
+}
+.cajaContenido{
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardsBody{
+    background-color: rgb(28, 31, 56);
+}
+.cardsRelleno{
+    color:white;
+}
+.cardsImagen{
+    height: 200px;
+    width: 288px;
+    object-fit: contain;
+    background-color: rgb(28, 31, 56);
+    padding-top: 10px;
+}
+.cardss{
+    border: none;
+}

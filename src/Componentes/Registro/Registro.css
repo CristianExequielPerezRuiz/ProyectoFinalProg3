@@ -1,0 +1,21 @@
+.body_Registro{
+    background-color: rgb(28, 31, 56);
+}
+.grid-layaut-registro{
+    grid-template-areas: 'Registro';
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 9% 300px 13% 300px;
+    border: 1px solid black;
+    color: white;
+}
+.contein_registro{
+    grid-area: Registro;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.btn_Registro{
+    width: 100%;
+}
